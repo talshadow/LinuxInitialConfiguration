@@ -1,0 +1,2 @@
+# LinuxInitialConfiguration
+Inital system configuration
