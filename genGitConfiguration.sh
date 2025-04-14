@@ -86,7 +86,7 @@ while getopts :ghm:u:k: option; do
          fi;;
 
      \?) # Invalid option
-         echo "Error: Invalid option ${option}"
+         echo "Error: Invalid option ${OPTARG}"
          print_help
          exit 2;;
        $OPTARG
