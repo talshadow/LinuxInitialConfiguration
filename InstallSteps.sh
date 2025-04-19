@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt purge firefox -y
 pkcon update
-sudo apt install gcc g++ clang clang-format clang-tidy lldb gdb cmake klog cmake-format ninja-build autoconf automake libtool flex bison gdb build-essential git libreoffice kdiff3 meld nano p7zip silversearcher-ag htop gpm unzip inetutils-traceroute heaptrack valgrind thunderbird silversearcher-ag okular-extra-backends -y
+sudo apt install gcc g++ clang clang-format clang-tidy lldb gdb cmake klog cmake-format ninja-build autoconf automake libtool flex bison gdb build-essential git libreoffice kdiff3 meld nano p7zip silversearcher-ag htop gpm unzip inetutils-traceroute heaptrack valgrind thunderbird silversearcher-ag okular-extra-backends libbenchmark-dev -y
 
 #sudo dpkg-divert --rename --divert /etc/apt/apt.conf.d/20apt-esm-hook.conf.disabled --add /etc/apt/apt.conf.d/20apt-esm-hook.conf
 
