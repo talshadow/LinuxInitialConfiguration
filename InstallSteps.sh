@@ -5,6 +5,9 @@ sudo apt purge firefox -y
 pkcon update
 sudo apt install gcc g++ clang clang-format clang-tidy lldb gdb cmake klog cmake-format ninja-build autoconf automake libtool flex bison gdb build-essential git libreoffice kdiff3 meld nano p7zip silversearcher-ag htop gpm unzip inetutils-traceroute heaptrack valgrind thunderbird silversearcher-ag okular-extra-backends libbenchmark-dev -y
 
+# Set BIOS time to local time - to revert use command timedatectl set-local-rtc 0
+timedatectl set-local-rtc 1
+
 #sudo dpkg-divert --rename --divert /etc/apt/apt.conf.d/20apt-esm-hook.conf.disabled --add /etc/apt/apt.conf.d/20apt-esm-hook.conf
 
 pushd /tmp
