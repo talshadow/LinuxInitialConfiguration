@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt purge firefox -y
 pkcon update
-sudo apt install gcc g++ clang clang-format clang-tidy lldb gdb cmake klog cmake-format ninja-build autoconf automake libtool flex bison gdb build-essential git libreoffice kdiff3 meld nano p7zip silversearcher-ag htop gpm unzip inetutils-traceroute heaptrack valgrind thunderbird silversearcher-ag okular-extra-backends libbenchmark-dev -y
+sudo apt install gcc g++ clang clang-format clang-tidy lldb gdb cmake klog cmake-format ninja-build autoconf automake libtool flex bison gdb build-essential git libreoffice kdiff3 meld nano p7zip silversearcher-ag htop gpm unzip inetutils-traceroute heaptrack valgrind thunderbird silversearcher-ag okular-extra-backends libbenchmark-dev filelight dwarves -y
 
 # Set BIOS time to local time - to revert use command timedatectl set-local-rtc 0
 timedatectl set-local-rtc 1
@@ -31,6 +31,10 @@ popd
 #or
 # sudo apt install nvidia-driver-550 -y
 # sudo apt --fix-broken install -y
+
+# andoid studio
+# sudo apt install openjdk-21-jdk
+# sudo snap install android-studio --classic
 
 pushd /tmp
 wget https://download.qt.io/official_releases/online_installers/qt-online-installer-linux-x64-online.run
