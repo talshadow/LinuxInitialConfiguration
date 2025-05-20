@@ -89,7 +89,6 @@ while getopts :ghm:u:k: option; do
          echo "Error: Invalid option ${OPTARG}"
          print_help
          exit 2;;
-       $OPTARG
    esac
 done
 
