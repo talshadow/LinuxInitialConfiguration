@@ -33,7 +33,7 @@ function setUpGit() {
         #git default editor
         # git config ${CONFIGURATION} core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
         # git config ${CONFIGURATION} core.editor "nano -w"
-        git config ${CONFIGURATION} core.editor "kate"
+        git config ${CONFIGURATION} core.editor "kate -b --startanon"
         git config ${CONFIGURATION} init.defaultBranch main
         git config ${CONFIGURATION} pull.rebase true
         git config ${CONFIGURATION} branch.autosetuprebase always
